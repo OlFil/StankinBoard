@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/StankinBoard/static/css/main.d18ceedf.css",
+    "main.js": "/StankinBoard/static/js/main.72464cb8.js",
+    "index.html": "/StankinBoard/index.html",
+    "main.d18ceedf.css.map": "/StankinBoard/static/css/main.d18ceedf.css.map",
+    "main.72464cb8.js.map": "/StankinBoard/static/js/main.72464cb8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d18ceedf.css",
+    "static/js/main.72464cb8.js"
+  ]
+}
