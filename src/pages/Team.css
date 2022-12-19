@@ -1,0 +1,438 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+body {
+   background-color: #EAEAEA;
+}
+
+.container {
+   max-width: 1450px;
+   margin: 0 auto;
+}
+
+.header {
+   background-color: #FFFFFF;
+   box-shadow: 0px 5px 20px rgba(30, 137, 215, 0.36);
+}
+
+.header__inner {
+   display: flex;
+   align-items: center;
+   height: 100px;
+   padding: 0 25px;
+}
+
+.logo {
+   font-family: 'Amatic SC';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 61px;
+   letter-spacing: 0.075em;
+   text-decoration: none;
+   pointer-events: painted;
+   color: #1E89D7;
+}
+
+.logo span {
+   color: #000000;
+}
+
+.project {
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 20px;
+   letter-spacing: 0.075em;
+   color: #6B6B6B;
+   text-decoration: none;
+   margin-left: 80px;
+}
+
+.menu2 {
+   margin-left: auto;
+}
+
+.search__box {
+   vertical-align: middle;
+   display: flex;
+
+}
+
+.search__txt {
+   margin-top: 2px;
+   width: 300px;
+   height: 30px;
+   border: none;
+   font-size: 16px;
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 400;
+   padding-right: 30px;
+   border-bottom: 3px solid #EAEAEA;
+}
+
+.search__txt:focus {
+   outline: 0;
+   outline-offset: 0;
+}
+
+.search__button {
+   cursor: default;
+}
+
+.button__img {
+   width: 30px;
+   height: 30px;
+   position: relative;
+   left: -100%;
+   cursor: pointer;
+   padding-top: 3px;
+}
+
+.create__button {
+   padding: 20px 24px;
+   background-color: #76C0F5;
+   border-radius: 10px;
+   font-family: 'Montserrat Alternates';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 20px;
+   letter-spacing: 0.075em;
+   color: #FFFFFF;
+   border: none;
+   cursor: pointer;
+   transition: color 0.3s ease-in-out;
+   transition: background 0.3s ease-in-out;
+}
+
+.create__button:hover {
+   background: #FFFFFF;
+   color: #76C0F5;
+   outline: 3px solid #76C0F5;
+   outline-offset: -3px;
+}
+
+.login {
+   padding: 17px 21px;
+   background: #FFFFFF;
+   border: 3px solid #76C0F5;
+   border-radius: 10px;
+   font-family: 'Montserrat Alternates';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 20px;
+   letter-spacing: 0.075em;
+   color: #76C0F5;
+   cursor: pointer;
+   transition: all 0.3s ease-in-out;
+}
+
+.login:hover {
+   background-color: #76C0F5;
+   color: #FFFFFF;
+}
+
+.about-us {
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+
+.about-project {
+   font-family: 'Montserrat Alternates';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 28px;
+   line-height: 24px;
+   letter-spacing: 0.075em;
+   margin-bottom: 30px;
+}
+
+.about-project__text {
+   font-family: 'Montserrat Alternates';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 30px;
+   letter-spacing: 0.075em;
+   text-indent: 30px;
+}
+
+.about-command {
+   margin-top: 60px;
+   font-family: 'Montserrat Alternates';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 28px;
+   line-height: 24px;
+   letter-spacing: 0.075em;
+   margin-bottom: 30px;
+}
+
+.about-command__list {
+   display: flex;
+   justify-content: space-between;
+}
+
+.about-us__inner {
+   padding: 0 25px;
+}
+
+.about-command__item {
+   list-style-type: none;
+   background-color: #FFFFFF;
+   padding: 10px;
+   border-radius: 10px;
+}
+
+.profile-pic__img {
+   width: 240px;
+   height: 300px;
+   border-radius: 5px;
+}
+
+.person__name,
+.person__name2 {
+   font-family: 'Montserrat Alternates';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 20px;
+   letter-spacing: 0.075em;
+   margin-top: 10px;
+}
+
+.person__name2 {
+   text-align: right;
+   margin-top: 0;
+}
+
+.person__info {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 40px;
+   font-family: 'Montserrat Alternates';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 14px;
+   letter-spacing: 0.075em;
+}
+
+.person__info2 {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 20px;
+   font-family: 'Montserrat Alternates';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 14px;
+}
+
+.person__position-more {
+   display: flex;
+   justify-content: space-between;
+}
+
+.person__group {
+   padding: 4px;
+}
+
+.person__position {
+   cursor: pointer;
+   padding: 4px;
+   transition: all 0.15s ease-in;
+   user-select: none;
+   position: relative;
+   display: inline-block;
+}
+
+.person__position+.person__position {
+   margin-left: 10px;
+}
+
+#SP::before,
+#AD::before,
+#KO::before,
+#VN::before,
+#BA::before,
+#NI::before,
+#UP::before,
+#PP::before {
+   position: absolute;
+   left: 50%;
+   transform: translateX(-50%);
+   top: 100%;
+   color: #FFFFFF;
+   padding: 5px;
+   background-color: rgba(118, 192, 245, 40%);
+   border-radius: 10px;
+   text-align: center;
+   transition: inherit;
+   visibility: hidden;
+   z-index: -1;
+   opacity: 0;
+}
+
+#SP::before {
+   content: attr(data-SP);
+}
+
+#AD::before {
+   content: attr(data-AD);
+}
+
+#KO::before {
+   content: attr(data-KO);
+}
+
+#VN::before {
+   content: attr(data-VN);
+}
+
+#BA::before {
+   content: attr(data-BA);
+   width: 126px;
+}
+
+#NI::before {
+   content: attr(data-NI);
+}
+
+#UP::before {
+   content: attr(data-UP);
+}
+
+#PP::before {
+   content: attr(data-PP);
+}
+
+#SP:hover,
+#BA:hover,
+#VN:hover,
+#KO:hover,
+#AD:hover,
+#NI:hover,
+#UP:hover,
+#PP:hover {
+   background-color: rgba(118, 192, 245, 40%);
+   border-radius: 10px;
+}
+
+#SP:hover:before,
+#BA:hover:before,
+#VN:hover:before,
+#KO:hover:before,
+#AD:hover:before,
+#NI:hover:before,
+#UP:hover:before,
+#PP:hover:before {
+   opacity: 1;
+   visibility: visible;
+   z-index: 10;
+   top: calc(100% + 15px);
+}
+
+.navbar-brand{
+    font-size: 40px;
+}
+.stankin{
+    color: #1E89D7;
+}
