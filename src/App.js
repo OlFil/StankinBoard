@@ -2,7 +2,7 @@ import './App.css';
 import NavBar from "./component/navbar/NavBar";
 import Section from "./component/section/Section";
 import Login from "./pages/Login";
-import {BrowserRouter, Route, Routes} from "react-router-dom";
+import {HashRouter,BrowserRouter , Route, Routes} from "react-router-dom";
 import Team from "./pages/Team";
 
 
@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div className="App">
-   <BrowserRouter>
+   <HashRouter >
        <NavBar/>
        <Routes>
            <Route path='/team' element={<Team/>} />
@@ -22,7 +22,7 @@ function App() {
            <Route path='/login' element={<Login/>} />
            {/*<Route path='/modal' element={<Modal/>} />*/}
        </Routes>
-   </BrowserRouter>
+   </HashRouter>
     </div>
   );
 }
