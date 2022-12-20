@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/StankinBoard/static/css/main.d18ceedf.css",
-    "main.js": "/StankinBoard/static/js/main.9c46681d.js",
+    "main.js": "/StankinBoard/static/js/main.2abbead1.js",
     "index.html": "/StankinBoard/index.html",
     "main.d18ceedf.css.map": "/StankinBoard/static/css/main.d18ceedf.css.map",
-    "main.9c46681d.js.map": "/StankinBoard/static/js/main.9c46681d.js.map"
+    "main.2abbead1.js.map": "/StankinBoard/static/js/main.2abbead1.js.map"
   },
   "entrypoints": [
     "static/css/main.d18ceedf.css",
-    "static/js/main.9c46681d.js"
+    "static/js/main.2abbead1.js"
   ]
 }
