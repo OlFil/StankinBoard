@@ -29,7 +29,7 @@
 
 ### Работа над проектом ведется в команде.
 * Веб-приложение будет развернуто на хостинге позднее
-* Веб-страница с описанием проекта будет доступна по ссылке: [Landing page](https://)
+* Веб-страница с описанием проекта будет доступна по ссылке: [Landing page](https://stankinboardempty.web.app/team)
 ## ✅ Актуальность проекта:
 Чем сознательнее человек, тем меньше он склонен к бессмысленному потреблению. А студенты, проживающие в общежитиях, смогут подарить вторую жизнь любой вещи, которой бывший хозяин не нашел применения.
 
@@ -62,4 +62,4 @@
 [Кондуит ИДМ-22](https://docs.google.com/spreadsheets/d/1ypxgDUpNsaAK5PH90dTfGKdtDnWaeEDWfupEbDokN6A/edit?usp=sharing)
 
 ## ✅ Landing Page:
-[Landing page](https://)
+[Landing page](https://stankinboardempty.web.app/team)
