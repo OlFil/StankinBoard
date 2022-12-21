@@ -13,8 +13,6 @@ body {
   align-items: center;
   padding-left: 20px;
   padding-right: 20px;
-
-
 }
 .navbar-brand {
   font-family: "Amatic Sc";
@@ -56,3 +54,24 @@ code {
     monospace;
 }
 
+@media (min-width: 375px) and (max-width: 1000px){
+.collapse.navbar-collapse {
+ opacity: 0;
+}
+.navbar-collapse.collapse.show {
+  margin:15px;
+  opacity:100%;
+  display:block;
+  position:relative;
+  min-width: 96vw;
+  margin-left: 0;
+  background-color:#adc8da;
+  z-index:999;
+  min-height: 100vh;
+}
+.navbar-nav{
+gap:10px;
+padding-left: 15px;
+}
+
+}

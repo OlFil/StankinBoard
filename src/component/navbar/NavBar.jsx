@@ -38,13 +38,14 @@ function NavBar() {
                 Создать объявление
               </button>
 
-              <a href="/login">
+              
                 {" "}
                 <button className="btn btn-outline-primary me-5">
-                  {" "}
-                  Вход / Регистрация{" "}
+                  <a href="/login">{" "}
+                  
+                  Вход / Регистрация{" "}</a>
                 </button>
-              </a>
+             
             </ul>
             <Modal show={show} onHide={handleClose} animation={false}>
               <Modal.Header closeButton>

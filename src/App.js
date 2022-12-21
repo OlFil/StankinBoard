@@ -14,15 +14,16 @@ function App() {
 
   return (
     <div className="App">
-   <HashRouter >
-       <NavBar/>
-       <Routes>
-           <Route path='/team' element={<Team/>} />
+   
+       
+      <BrowserRouter>
+      <NavBar/>
+      <Routes >
+           < Route path = '/team'element = { <Team/>}/>
            <Route path='/' element={<Section/>} />
            <Route path='/login' element={<Login/>} />
-           {/*<Route path='/modal' element={<Modal/>} />*/}
        </Routes>
-   </HashRouter>
+      </BrowserRouter>
     </div>
   );
 }

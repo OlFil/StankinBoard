@@ -47,10 +47,7 @@ function Team() {
                                             className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" />
                                     </a>
                                     <h2 class="person__name">
-                                        Гиголо Мпена
-                                    </h2>
-                                    <h2 class="person__name2">
-                                        Жоэль Вианни
+                                        Гиголо Мпена Жоэль Вианни
                                     </h2>
                                     <div class="person__info2">
                                         <p class="person__group">
